@@ -10,7 +10,7 @@ The parameters present in the above mathematical quantity are defined as follows
 ```
 Upon the integration of the integrand, we have following figure:
 ![The Kelvin-Wake Problem](https://github.com/himanshuvnm/Kelvin-Wake-Problem/blob/main/kelvin-wake.png "The Kelvin-Wake Problem")
-## Parts of the V-shape of the kelvin-Wake-Problem
+## Parts of the V-shape of the Kelvin-Wake-Problem
 Just, for the simplicity to handle the notation, we let $z\left(\phi,\rho\right)=\mathcal{I}_c(\phi,\rho)$.  We further configured individual parts of the V-shaped present in the above figure of the Kelvin-Wake problem. This leads to have following two integrals summation given as:
 ```math
 \mathcal{I}_c(\phi,\rho)=\int_{-\pi/2}^{\pi/2}\cos\left(\rho\frac{\cos(\theta-\phi)}{\cos^2\theta}\right)d\theta=\underbrace{\int_{-\pi/2}^{0}\cos\left(\rho\frac{\cos(\theta-\phi)}{\cos^2\theta}\right)d\theta}_\text{Part -1}+\underbrace{\int_{0}^{\pi/2}\cos\left(\rho\frac{\cos(\theta-\phi)}{\cos^2\theta}\right)d\theta}_{\text{Part-2}}.
@@ -19,3 +19,9 @@ A further integral analysis can help us to realize that Part 1 integral is $\int
 
 ![The Kelvin-Wake Problem: Lower part of V-shape](https://github.com/himanshuvnm/Kelvin-Wake-Problem/blob/main/kelvin-wake%20lower-part.png "The Kelvin-Wake Problem")
 ![The Kelvin-Wake Problem: Lower part of V-shape](https://github.com/himanshuvnm/Kelvin-Wake-Problem/blob/main/kelvin-wake%20upper-part.png "The Kelvin-Wake Problem")
+### Further analysis on the integral
+It is interesting to know that the $\mathcal{I}_C\left(\phi,\rho\right)=\mathcal{I}_S\left(\phi,\rho\right)$ where 
+```math
+\mathcal{I}_S\left(\phi,\rho\right)=\int_0^{\pi/2}\left\{\cos\left(\rho\frac{\sin(\theta+\phi)}{\sin^2\theta}\right)+\cos\left(\rho\frac{\sin(\theta-\phi)}{\sin^2\theta}\right)d\theta\right\}d\theta.
+```
+For the proof, refer the jupyter file.
