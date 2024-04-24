@@ -24,4 +24,4 @@ It is interesting to know that the $\mathcal{I}_C\left(\phi,\rho\right)=\mathcal
 ```math
 \mathcal{I}_S\left(\phi,\rho\right)=\int_0^{\pi/2}\left\{\cos\left(\rho\frac{\sin(\theta+\phi)}{\sin^2\theta}\right)+\cos\left(\rho\frac{\sin(\theta-\phi)}{\sin^2\theta}\right)d\theta\right\}d\theta.
 ```
-For the proof, refer the jupyter file.
+For the proof, refer the jupyter file. The study in this was inspired and motivated from https://scipython.com/blog/the-kelvin-wake-pattern/.
