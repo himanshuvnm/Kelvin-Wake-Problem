@@ -10,3 +10,4 @@ The parameters present in the above mathematical quantity are defined as follows
 ```
 Upon the integration of the integrand, we have following figure:
 ![The Kelvin-Wake Problem](https://github.com/himanshuvnm/Kelvin-Wake-Problem/blob/main/kelvin-wake.png "The Kelvin-Wake Problem")
+Just, for the simplicity to handle the notation, we let $z\left(\phi,\rho\right)=\mathcal{I}_c(\phi,\rho)$.  We further configured individual parts of the V-shaped present in the above figure of the Kelvin-Wake problem. This 
