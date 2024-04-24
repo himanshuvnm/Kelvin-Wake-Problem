@@ -5,5 +5,5 @@ z\left(\phi,\rho\right)=\int_{-\pi/2}^{\pi/2}\cos\left[\rho\frac{\cos(\theta-\ph
 ```
 The parameters present in the above mathematical quantity are defined as follows:
 ```math
-\phi=\tan^{-1}\frac{y}{x}
+\phi=\operatorname{tan}^{-1}\dfrac{y}{x}
 ```
