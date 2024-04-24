@@ -11,4 +11,7 @@ The parameters present in the above mathematical quantity are defined as follows
 Upon the integration of the integrand, we have following figure:
 ![The Kelvin-Wake Problem](https://github.com/himanshuvnm/Kelvin-Wake-Problem/blob/main/kelvin-wake.png "The Kelvin-Wake Problem")
 
-Just, for the simplicity to handle the notation, we let $z\left(\phi,\rho\right)=\mathcal{I}_c(\phi,\rho)$.  We further configured individual parts of the V-shaped present in the above figure of the Kelvin-Wake problem. This 
+Just, for the simplicity to handle the notation, we let $z\left(\phi,\rho\right)=\mathcal{I}_c(\phi,\rho)$.  We further configured individual parts of the V-shaped present in the above figure of the Kelvin-Wake problem. This leads to have following two integrals summation given as:
+```math
+\mathcal{I}_c(\phi,\rho)=\int_{-\pi/2}^{\pi/2}\cos\left(\rho\frac{\cos(\theta-\phi)}{\cos^2\theta}\right)d\theta=\underbrace{\int_{-\pi/2}^{0}\cos\left(\rho\frac{\cos(\theta-\phi)}{\cos^2\theta}\right)d\theta}_\text{Part -1}+\underbrace{\int_{0}^{\pi/2}\cos\left(\rho\frac{\cos(\theta-\phi)}{\cos^2\theta}\right)d\theta}_{\text{Part-2}}.
+```
