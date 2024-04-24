@@ -9,4 +9,4 @@ The parameters present in the above mathematical quantity are defined as follows
 \rho=r\frac{g}{u^2}.
 ```
 Upon the integration of the integrand, we have following figure:
-![alt text](https://github.com/himanshuvnm/Kelvin-Wake-Problem/blob/main/kelvin-wake.png "The Kelvin-Wake Problem")
+![The Kelvin-Wake Problem](https://github.com/himanshuvnm/Kelvin-Wake-Problem/blob/main/kelvin-wake.png "The Kelvin-Wake Problem")
