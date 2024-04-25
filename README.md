@@ -22,6 +22,6 @@ A further integral analysis can help us to realize that Part 1 integral is $\int
 ### Further analysis on the integral
 It is interesting to know that the $\mathcal{I}_C\left(\phi,\rho\right)=\mathcal{I}_S\left(\phi,\rho\right)$ where 
 ```math
-\mathcal{I}_S\left(\phi,\rho\right)=\int_0^{\pi/2}\left\{\cos\left(\rho\frac{\sin(\theta+\phi)}{\sin^2\theta}\right)+\cos\left(\rho\frac{\sin(\theta-\phi)}{\sin^2\theta}\right)d\theta\right\}d\theta.
+\mathcal{I}_S\left(\phi,\rho\right)=\int_0^{\pi/2}\left\{\cos\left(\rho\frac{\sin(\theta+\phi)}{\sin^2\theta}\right)+\cos\left(\rho\frac{\sin(\theta-\phi)}{\sin^2\theta}\right)\right\}d\theta.
 ```
 For the proof, refer the jupyter file. The study in this was inspired and motivated from https://scipython.com/blog/the-kelvin-wake-pattern/.
